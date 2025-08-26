@@ -336,6 +336,145 @@ function App() {
         </div>
       </section>
 
+      {/* Partners Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Trusted Partners</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              We collaborate with leading education consultants and agencies to provide comprehensive support for your German journey
+            </p>
+          </div>
+
+          {/* Partners Grid */}
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 items-center">
+            {/* Leverage EDU */}
+            <div className="group bg-gray-50 rounded-xl p-6 hover:bg-red-50 transition-all duration-300 hover:shadow-lg">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <span className="text-white font-bold text-xl">LE</span>
+                </div>
+                <h3 className="font-semibold text-gray-900 text-lg mb-2">Leverage EDU</h3>
+                <p className="text-sm text-gray-600">Education Consulting</p>
+              </div>
+            </div>
+
+            {/* Global Edge */}
+            <div className="group bg-gray-50 rounded-xl p-6 hover:bg-red-50 transition-all duration-300 hover:shadow-lg">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <span className="text-white font-bold text-xl">GE</span>
+                </div>
+                <h3 className="font-semibold text-gray-900 text-lg mb-2">Global Edge</h3>
+                <p className="text-sm text-gray-600">International Education</p>
+              </div>
+            </div>
+
+            {/* EdNet Consultants */}
+            <div className="group bg-gray-50 rounded-xl p-6 hover:bg-red-50 transition-all duration-300 hover:shadow-lg">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <span className="text-white font-bold text-xl">EC</span>
+                </div>
+                <h3 className="font-semibold text-gray-900 text-lg mb-2">EdNet Consultants</h3>
+                <p className="text-sm text-gray-600">Study Abroad Experts</p>
+              </div>
+            </div>
+
+            {/* Vision International */}
+            <div className="group bg-gray-50 rounded-xl p-6 hover:bg-red-50 transition-all duration-300 hover:shadow-lg">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <span className="text-white font-bold text-xl">VI</span>
+                </div>
+                <h3 className="font-semibold text-gray-900 text-lg mb-2">Vision International</h3>
+                <p className="text-sm text-gray-600">Global Education Services</p>
+              </div>
+            </div>
+
+            {/* Western Overseas */}
+            <div className="group bg-gray-50 rounded-xl p-6 hover:bg-red-50 transition-all duration-300 hover:shadow-lg">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <span className="text-white font-bold text-xl">WO</span>
+                </div>
+                <h3 className="font-semibold text-gray-900 text-lg mb-2">Western Overseas</h3>
+                <p className="text-sm text-gray-600">Immigration & Education</p>
+              </div>
+            </div>
+
+            {/* Prowess */}
+            <div className="group bg-gray-50 rounded-xl p-6 hover:bg-red-50 transition-all duration-300 hover:shadow-lg">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-teal-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <span className="text-white font-bold text-xl">P</span>
+                </div>
+                <h3 className="font-semibold text-gray-900 text-lg mb-2">Prowess</h3>
+                <p className="text-sm text-gray-600">Career Consulting</p>
+              </div>
+            </div>
+
+            {/* Edugo Abroad */}
+            <div className="group bg-gray-50 rounded-xl p-6 hover:bg-red-50 transition-all duration-300 hover:shadow-lg">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <span className="text-white font-bold text-xl">EA</span>
+                </div>
+                <h3 className="font-semibold text-gray-900 text-lg mb-2">Edugo Abroad</h3>
+                <p className="text-sm text-gray-600">Study Abroad Solutions</p>
+              </div>
+            </div>
+
+            {/* Partnership CTA */}
+            <div className="group bg-gradient-to-br from-red-500 to-amber-500 rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:scale-105">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white font-bold text-2xl">+</span>
+                </div>
+                <h3 className="font-semibold text-white text-lg mb-2">Partner With Us</h3>
+                <p className="text-sm text-red-100">Join our network</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Partnership Benefits */}
+          <div className="mt-16 bg-gradient-to-r from-red-50 to-amber-50 rounded-2xl p-8">
+            <div className="text-center mb-8">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Partner With Globsist?</h3>
+              <p className="text-gray-600 max-w-2xl mx-auto">
+                Together, we create a seamless experience for students transitioning to Germany
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="text-center">
+                <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Users className="h-8 w-8 text-red-600" />
+                </div>
+                <h4 className="font-semibold text-gray-900 mb-2">Comprehensive Support</h4>
+                <p className="text-gray-600 text-sm">End-to-end services from pre-arrival to settlement</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Shield className="h-8 w-8 text-red-600" />
+                </div>
+                <h4 className="font-semibold text-gray-900 mb-2">Trusted Network</h4>
+                <p className="text-gray-600 text-sm">Reliable partnerships built on mutual success</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Star className="h-8 w-8 text-red-600" />
+                </div>
+                <h4 className="font-semibold text-gray-900 mb-2">Proven Results</h4>
+                <p className="text-gray-600 text-sm">500+ successful student transitions to Germany</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing Section */}
       <section id="pricing" className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
